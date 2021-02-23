@@ -2,6 +2,10 @@ export const products = [
   {
     id: 1,
     image: "https://m.media-amazon.com/images/I/91shKLxoedL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/71JJSp3yxrL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/910TuvQ6owL._AC_SL1500_.jpg",
     name: "HP Chromebook 14-inch HD Laptop,",
     description:
       "Intel Celeron N4000, 4 GB RAM, 32 GB eMMC, Chrome (14a-na0010nr, Mineral Silver)",
@@ -12,6 +16,10 @@ export const products = [
   {
     id: 2,
     image: "https://m.media-amazon.com/images/I/71r5254QPZL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/714L-dbza3L._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/71irG-qXLHL._AC_SL1500_.jpg",
     name: "Razer Blade 15 Base Gaming Laptop 2020",
     rating: "4.6/5.0",
     description:
@@ -22,6 +30,10 @@ export const products = [
   {
     id: 3,
     image: "https://m.media-amazon.com/images/I/71LXYdhtD3L._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81EsuVK45ML._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/812mj4b-n-L._AC_SL1500_.jpg",
     name: "ASUS Laptop L410 Ultra Thin Laptop",
     rating: "4.3/5.0",
     description:
@@ -32,6 +44,10 @@ export const products = [
   {
     id: 4,
     image: "https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/71IUWyGC9bL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/81BrRhXetZL._AC_SL1500_.jpg",
     name: "ASUS VivoBook 15 F515 Thin and Light Laptop",
     rating: "4.5/5.0",
     description:
@@ -42,6 +58,10 @@ export const products = [
   {
     id: 5,
     image: "https://m.media-amazon.com/images/I/81Z8NvO2TFL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81eAEWZPKeL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/71FGQCw3DrL._AC_SL1500_.jpg",
     name: "Acer Nitro 5 Gaming Laptop",
     rating: "4.6/5.0",
     description:
@@ -52,6 +72,10 @@ export const products = [
   {
     id: 6,
     image: "https://m.media-amazon.com/images/I/71vFKBpKakL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81HZAfCGZ5L._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/71zFHzUBzuL._AC_SL1500_.jpg",
     name: "2020 Apple MacBook Air with Apple M1 Chip",
     rating: "4.8/5.0",
     description: "(13-inch, 8GB RAM, 256GB SSD Storage) - Gold",
@@ -61,6 +85,10 @@ export const products = [
   {
     id: 7,
     image: "https://m.media-amazon.com/images/I/91MW2X7lrfL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81%2BvM4qBmGL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/81TDHt%2BdPVL._AC_SL1500_.jpg",
     name: "ASUS TUF506IV-AS76 TUF Gaming A15 Gaming Laptop",
     rating: "4.5/5.0",
     description:
@@ -71,6 +99,10 @@ export const products = [
   {
     id: 8,
     image: "https://m.media-amazon.com/images/I/71nEy+5OMdL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/614AacNmViL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/51igTv3PmSL._AC_SL1500_.jpg",
     name: "MSI GE66 Raider 10UG-211",
     rating: "5.0/5.0",
     description:
@@ -81,6 +113,10 @@ export const products = [
   {
     id: 9,
     image: "https://m.media-amazon.com/images/I/81-7VeKHsSL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81o7Wq8d5UL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/81%2BdHOOU8oL._AC_SL1500_.jpg",
     name: "2020 HP Touchscreen Laptop Computer",
     rating: "4.5/5.0",
     description:
@@ -91,6 +127,10 @@ export const products = [
   {
     id: 10,
     image: "https://m.media-amazon.com/images/I/71arQOG5qPL._AC_UY218_.jpg",
+    image2:
+      "https://images-na.ssl-images-amazon.com/images/I/81%2BeOzDR0RL._AC_SL1500_.jpg",
+    image3:
+      "https://images-na.ssl-images-amazon.com/images/I/81pPiJDSVmL._AC_SL1500_.jpg",
     name: "Lenovo IdeaPad 3 Laptop",
     rating: "4.4/5.0",
     description:
