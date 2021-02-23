@@ -1,0 +1,24 @@
+<div class="product-list">
+	<div *ngFor="let product of products" class="content">
+		<img src="{{product.image}}" alt="image of product">
+		<h3 class="title">
+			<a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+				{{product.name}}
+			</a>
+		</h3>
+		<div class="bottom">
+			<div class="price">
+				<h4 *ngIf="product.rating"> {{product.rating}} </h4>
+				<h2>{{ product.price | currency }} </h2>
+			</div>
+			<button>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Share</a>
+                <a href="https://web.telegram.org/#/login"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </button>
+		</div>
+
+
+
+	</div>
+</div>
