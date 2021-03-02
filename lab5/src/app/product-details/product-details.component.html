@@ -1,0 +1,10 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+	<img src="{{product.image}}" alt="image of product">
+	<h3>{{ product.name }}</h3>
+	<h4><a href={{product.link}}> Link on this product on Amazon</a></h4>
+	<p>{{ product.description }}</p>
+	<p><strong>Likes:</strong>{{like}}</p>
+
+</div>
