@@ -1,0 +1,42 @@
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(35, 52, 72, 255);
+  width: 400px;
+  margin: 20px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  background-color: #1976d2;
+  color: white;
+}
+
+.img {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+h1 {
+  color: #1976d2;
+  padding: 10px;
+}
