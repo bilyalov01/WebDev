@@ -1,0 +1,16 @@
+<div *ngIf="loaded">
+  <h3>Album details #{{album.id}}</h3>
+  <fieldset>
+    <p>Change title</p>
+    <input type="text" [(ngModel)]="album.title">
+    <button (click)=update()> Save </button>
+  </fieldset>
+  <p>Title: {{album.title}}</p>
+
+  <div class="buttons">
+    <button (click)=back()>Go Back</button>
+    <button (click)=showPhotos()>Photos</button>
+  </div>
+
+</div>
+<router-outlet></router-outlet>

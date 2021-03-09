@@ -1,0 +1,41 @@
+fieldset {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset input,
+fieldset button {
+  margin: 2px;
+  padding: 1%;
+  width: 20%;
+}
+fieldset input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.buttons {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.buttons button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+  border-radius: 5px;
+}
+button {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4288fd;
+  border: none;
+  border-radius: 5px;
+}
